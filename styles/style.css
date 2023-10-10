@@ -252,7 +252,9 @@ margin-bottom: 0;
   color: #534C64;
 }
 
-
+.menu-2-img img{
+  width: 100%;
+}
 
 
 
@@ -392,5 +394,26 @@ justify-content: center;
   .menu1-right-contents img{
     width: 100%;
   }
+
+  .menu2-all-contents{
+    padding: 0 20px;
+    flex-direction: column;
+  }
+
+
+  .menu-2-img img{
+    width: 100%;
+    margin-top: 300px;
+  }
+
+  .menu-2-content{
+    text-align: center;
+    margin-top: -50px;
+  }
+
+  .menu-2-content button{
+    margin-bottom: 30px;
+  }
+
 
 }
