@@ -88,7 +88,7 @@ gap: 20px;
 }
 
 
-/* main1 left contents style (line no. 91) */
+/* main 1 left contents style (line no. 91) */
 
 
 .menu1-both-side-contents{
@@ -197,6 +197,7 @@ gap: 20px;
   font-weight: 500;
 }
 
+/* main 1 right contents style (line no. 91) */
 
 .menu1-right-contents{
   padding: 0 0 240px;
@@ -238,5 +239,107 @@ gap: 20px;
     
     }
 
+    /* menu 1 responsive styles */
+
+    .menu1-both-side-contents{
+      flex-direction: column-reverse;
+      gap: 20px;
+      padding: 0 20px;
+      margin-top: 150px;
+    }
+
+    .main1-left-content{
+      padding: 0;
+      bottom: 290px;
+      width: 100%;
+      /* left: 30px; */
+      text-align: center;
+    }
+
+    .main1-left .img-bg{
+      width: 100%;
+      margin-top: -200px;
+    }
+
+    .main1-left{
+
+align-items: center;
+/* gap: 20px; */
+
+}
+.play{
+justify-content: center;
+  margin-top:-60px;
+}
+    .play h6{
+      
+      font-size: 0.9em;
+}
+
+.download{
+  justify-content: center;
+}
+
+    .download h6{
+      font-size: 0.9em;
+}
+
+.online{
+  justify-content: center;
+}
+
+    .online h6{
+      font-size: 0.9em;
+}
+
+.play img{
+  width: 16px;
+  height: 16px;
+}
+
+
+.goat{
+  margin-bottom: 0;
+}
+.goat h1{
+  
+  font-size: 3.2em;
+  color: #F948B2;
+  }
+
+  .play-like h2{
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-bottom: -40px;
+  }
+
+  .buttons{
+    justify-content: center;
+    margin-top: -10px;
+  }
+
+  .btn1 button{
+    padding: 10px 22px;
+    background-color: #F948B2;
+    border-radius: 48px;
+    font-size: .8em;
+    border: none;
+    color: aliceblue;
+    font-weight: 500;
+  }
+  .btn2 button{
+    padding: 10px 22px;
+    background-color: #F948B2;
+    border-radius: 48px;
+    font-size: .8em;
+    border: none;
+    color: aliceblue;
+    font-weight: 500;
+  }
+
+  /* menu 1 right contents */
+  .menu1-right-contents img{
+    width: 100%;
+  }
 
 }
