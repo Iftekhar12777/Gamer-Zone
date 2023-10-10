@@ -88,12 +88,19 @@ gap: 20px;
 }
 
 
-/* man1 left contents style (line no. 91) */
+/* main1 left contents style (line no. 91) */
+
+
+.menu1-both-side-contents{
+  display: flex;
+  gap: 50px;
+}
 
 .main1-left-content{
   padding: 0px 240px;
   position: relative;
   bottom: 620px;
+  margin-bottom: -500px;
 }
 
 .play-like h2{
@@ -189,6 +196,12 @@ gap: 20px;
   color: aliceblue;
   font-weight: 500;
 }
+
+
+.menu1-right-contents{
+  padding: 0 0 240px;
+}
+
 
 
 
