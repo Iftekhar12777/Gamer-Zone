@@ -281,6 +281,8 @@ margin-bottom: 0;
   width: 100%;
 }
 
+/* menu 4 style started from here */
+
 .menu-4-all-contents{
   padding: 0 225px;
   display: flex;
@@ -312,6 +314,7 @@ margin-bottom: 0;
   right: 100px;
 }
 
+/* menu 5 style added from here */
 
 .menu-5-all-contents{
   padding-left: 240px;
@@ -320,6 +323,7 @@ margin-bottom: 0;
   align-items: center;
   justify-content: left;
   margin-top: -180px;
+  margin-bottom: 0;
 }
 
 .menu5-images .img1{
@@ -330,6 +334,7 @@ margin-bottom: 0;
   position: relative;
    bottom: 300px;
    left: 500px;
+   margin-bottom: 0;
 }
 
 
@@ -358,6 +363,12 @@ margin-bottom: 0;
 
 
 @media screen and (max-width:576px) {
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
 
   .nav-bar{
     flex-direction: column;
@@ -489,6 +500,8 @@ justify-content: center;
   /* menu 2 contents */
 
   .menu2-all-contents{
+    overflow-clip-margin: content-box;
+    overflow: clip;
     padding: 0 20px;
     flex-direction: column;
   }
@@ -509,6 +522,16 @@ justify-content: center;
   }
 
 /* menu 3 contents */
+.online-games-funny-videos{
+  overflow-clip-margin: content-box;
+  overflow: clip;
+
+}
+
+
+.online-games-funny-videos h1{
+  font-size: 2em;
+}
 
   .online-games-funny-videos p{
     padding:27px;
@@ -516,11 +539,123 @@ justify-content: center;
   }
 
   .menu-3-img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
     flex-direction: column;
     justify-content: center;
-    margin-left: 25px;
-    margin-top: -20px;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0;
   }
+
+  /* menu 4 started from here */
+
+  .menu-4-all-contents{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    flex-direction: column;
+    gap:0;
+    padding:0 20px;
+  }
+
+  .menu4-contents{
+    margin-top: -30px;
+    margin-bottom: 30px;
+    text-align: center;
+   }
+
+   .menu4-contents h1{
+    margin-left: 0;
+    margin-bottom: 0;
+    font-size: 2em;
+    /* display: none; */
+   }
+
+   .menu4-contents p{
+    /* display: none; */
+    margin-left: 0;
+    font-size: .8em;
+   }
+
+   .menu4-images{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    /* display: none; */
+    margin-left: 50px;
+    margin-right: 0;
+   }
+   .menu4-images .img1{
+    width: 90%;
+    margin: 0;
+   }
+
+.relative-image img{
+  width: 50%;
+margin: 0;
+}
+.relative-image{
+  right: 40px;
+  bottom: 150px;
+ 
+}
+
+
+
+/* menu 5 started from here */
+
+.menu-5-all-contents{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+  /* display: none; */
+    flex-direction: column-reverse;
+    gap:0;
+    padding: 0 20px;
+  }
+
+  .menu5-contents{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+   }
+
+   .menu5-contents h1{
+    margin-left: 0;
+    margin-bottom: 0;
+    font-size: 2em;
+   }
+
+   .menu5-contents p{
+    margin-left: 0;
+    font-size: .8em;
+    /* padding:0 40px; */
+   }
+
+   .menu5-images{
+    /* overflow-clip-margin: content-box;
+    overflow: clip; */
+    
+    margin-left:30px;
+    
+   }
+   .menu5-images .img1{
+    width: 80%;
+    margin: 0;
+    /* padding: 0; */
+   }
+
+.relative-image2 img{
+  width: 40%;
+margin: 0;
+/* padding: 0; */
+}
+.relative-image2{
+  /* display: none; */
+  left: 170px;
+  bottom:120px;
+  right: 0;
+ 
+}
+
 
 
 
