@@ -88,6 +88,112 @@ gap: 20px;
 }
 
 
+/* man1 left contents style (line no. 91) */
+
+.main1-left-content{
+  padding: 0px 240px;
+  position: relative;
+  bottom: 620px;
+}
+
+.play-like h2{
+  font-size: 3.3em;
+  font-weight: 600;
+  margin-bottom: -50px;
+}
+
+.goat{
+  margin-top: 0;
+}
+.goat h1{
+  
+font-size: 5.9em;
+color: #F948B2;
+}
+
+.play{
+  margin-top: -80px;
+  width: 100%;
+  display:flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.play img{
+  width: 20px;
+  height: 20px;
+}
+
+.play h6{
+  font-size: 1.2em;
+}
+
+.download{
+  margin-top: -60px;
+  width: 100%;
+  display:flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.download img{
+  width: 20px;
+  height: 20px;
+}
+
+.download h6{
+  font-size: 1.2em;
+}
+
+.online{
+  margin-top: -60px;
+  width: 100%;
+  display:flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.online img{
+  width: 20px;
+  height: 20px;
+}
+
+.online h6{
+  font-size: 1.2em;
+}
+
+
+/* button style added from here */
+
+.buttons{
+display: flex;
+gap: 20px;
+}
+
+.btn1 button{
+  padding: 11px 30px;
+  background-color: #F948B2;
+  border-radius: 48px;
+  font-size: 1.2em;
+  border: none;
+  color: aliceblue;
+  font-weight: 500;
+}
+
+.btn2 button{
+  padding: 11px 30px;
+  background-color: #4EC5F7;
+  border-radius: 48px;
+  font-size: 1.2em;
+  border: none;
+  color: aliceblue;
+  font-weight: 500;
+}
+
+
+
+
+
 
 
 
