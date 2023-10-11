@@ -417,13 +417,13 @@ margin-bottom: 0;
   color: aliceblue;
 }
 
-/* Menu 7 style strated from here.................... */
+/* Menu 7 style started from here.................... */
 
 .menu-7-links-img{
-  /* margin-top: 50px; */
+ 
   background-color: rgba(255, 66, 165, 0.09);
   height: 300px;
- 
+
 }
 
 
@@ -459,21 +459,17 @@ color: #F948B2;
 }
 
 
-.top-buttons-link{
+.all-buttons-link{
+  max-width: 1200px;
+  margin:0 auto;
+  margin-top: 0px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 15px;
-}
-.bottom-buttons-link{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-  margin-top: -30px;
-}
 
-
+}
 
 
 
@@ -804,6 +800,34 @@ margin: 0;
 .l2 li{
   font-size: .8em;
 }
+
+
+.btn-link-img a{
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.7em;
+}
+
+.btn-link-img img{
+  width: 25px;
+}
+
+.btn-link-img{
+  margin-top: 20px;
+  padding: 3px 2px;
+  width: 120px;
+}
+
+
+.all-buttons-link{
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap: 5px;
+  padding: 10px;
+}
+
+
+
 
 
 
