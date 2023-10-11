@@ -730,6 +730,26 @@ margin: 0;
  
 }
 
+.menu-6-all-contents{
+  padding: 0 20px;
+  flex-direction: column;
+}
+
+.menu6-right-side img{
+  margin-top: 30px;
+  width: 100%;
+  /* left: 0; */
+  position:;
+  left: 20px;
+
+}
+
+.l1 li{
+  font-size: .8em;
+}
+.l2 li{
+  font-size: .8em;
+}
 
 
 
